@@ -12,7 +12,7 @@
 
 		<div class="row">
 		  <div class="column">
-		    <a href="Clientes.php"><img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snow" style="width:100%"></a>
+		    <a href="Clientes.php"><img src="res/img/person.png" alt="Clientes" style="width:100%"></a>
 		  </div>
 		  <div class="column">
 		    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest" style="width:100%">
