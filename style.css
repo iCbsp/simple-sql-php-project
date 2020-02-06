@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Arial;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: center;
+		padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #dddddd;
+	}
+
+.header {
+	padding: 5px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+	.header>h1>a{
+		color: white;
+	}
+	.header>h1>a{
+		text-decoration: none;
+	}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.map {
+	height: 400px;
+	width: 50%;
+}
