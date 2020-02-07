@@ -49,7 +49,24 @@ table {
   display: table;
 }
 
+.mapContainer{
+	width: 50%;
+	margin: auto;
+}
+.mapContainer>h2{
+	text-align: center;
+	margin: 1em 0em 0em 0em;
+
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-color: #ededed;
+	padding: .5em 0em;
+}
 .map {
 	height: 400px;
-	width: 50%;
+	/*padding: 0.8em;*/
+
+	border: 1px solid black;
+	background-color: #ededed;
 }
